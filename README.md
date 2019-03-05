@@ -46,8 +46,8 @@ Add as android-wificonnect as dependency inside app module level build.gradle un
 
 ```
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.intentfilter:android-wificonnect:0.1.2'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.intentfilter:android-wificonnect:0.1.2'
 }
 ```
 
